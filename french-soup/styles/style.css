@@ -8,9 +8,63 @@ html {
   font-size: 18px
 }
 
-.s1{
+#s1{
   background-image: url("/french-soup/images/soup.jpg");
   width: 2500px;
   margin: 0;
 }
-  
+
+#s2{
+  text-align: left;
+  font-size: 25px;
+  padding-left: 50px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+#s3{
+  text-align: left;
+  font-size: 25px;
+  padding-left: 50px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+#s4{
+  text-align: left;
+  font-size: 25px;
+  padding-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+#cooking{
+  margin-left: 350px;
+  margin-bottom: 20px;
+}
+
+#recipe{
+margin-left: 350px;
+margin-bottom: 20px;
+}
+
+ul{
+  padding-left: 20px;
+}
+
+ol{
+  padding-left: 0px;
+}
+
+ul li::marker{content:"- ";
+}
+
+ol {
+list-style: none;
+counter-reset: my-awesome-counter;
+}
+ol li {
+counter-increment: my-awesome-counter;
+}
+ol li::before {
+content: counter(my-awesome-counter) ") ";
+}

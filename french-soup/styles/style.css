@@ -7,3 +7,10 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+.s1{
+  background-image: url("/french-soup/images/soup.jpg");
+  width: 2500px;
+  margin: 0;
+}
+  
